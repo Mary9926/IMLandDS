@@ -13,7 +13,7 @@ sum_df = pd.merge(df3, sheet1, on="state")
 print(sum_df)
 
 names = list(df2.keys())
-values = list(df2.values())
+values = list(df2.values)
 # values = list[df2.values()]
 
 plt.bar(range(len(df2)), values, tick_label=names)
