@@ -21,6 +21,13 @@ plt.show()
 murder_rate = group_data['n_killed'] / sheet1['population']
 print(murder_rate)
 
+# data = [murder_rate]
+#
+# with open('murder_rate.csv', 'w') as file:
+#     mywriter = csv.writer(file)
+#     mywriter.writerows(data)
+#
+# murders_rates_sheet = pd.read_excel('murder_rate.csv', sheet_name="Arkusz1")
 
 newCsv = pd.merge(sheet1, group_data['n_killed'], on=sheet1['state'], how ='left')
 print(newCsv)
