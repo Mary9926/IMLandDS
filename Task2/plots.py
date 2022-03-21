@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 df = pd.read_csv("data_1950.csv", sep=";")
-top_3 = df.nsmallest(3, 'ratio')
+top_3 = df.nlargest(3, 'ratio')
 print(top_3)
 top_3 = pd.DataFrame(top_3)
 print(top_3)
