@@ -15,7 +15,6 @@ print(sum_df)
 names = list(df2.keys())
 values = list(df2.values)
 
-
 plt.bar(range(len(df2)), values, tick_label=names)
 plt.xticks(rotation='vertical')
 plt.show()
