@@ -1,0 +1,5 @@
+maciej,m,1000
+bartek,m,990
+justyna,f,980
+anna,f,970
+agata,f,960
