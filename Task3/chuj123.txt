@@ -1,4 +1,0 @@
-maciej,m,100
-bartek,m,99
-justyna,f,98
-anna,f,97
